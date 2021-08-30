@@ -1,0 +1,32 @@
+[
+  {
+    "district_name": "Belgrano",
+    "district_built_price": 1000.0,
+    "district_unbuilt_price": 500.0
+  },
+  {
+    "district_name": "Balvanera",
+    "district_built_price": 600.0,
+    "district_unbuilt_price": 300.0
+  },
+  {
+    "district_name": "Palermo",
+    "district_built_price": 1200.0,
+    "district_unbuilt_price": 600.0
+  },
+  {
+    "district_name": "Centro",
+    "district_built_price": 500.0,
+    "district_unbuilt_price": 250.0
+  },
+  {
+    "district_name": "Urquiza",
+    "district_built_price": 1400.0,
+    "district_unbuilt_price": 700.0
+  },
+  {
+    "district_name": "Playa Serena",
+    "district_built_price": 1670023.0,
+    "district_unbuilt_price": 83352.5
+  }
+]

@@ -1,0 +1,22 @@
+override --from {ClassName} {attributeName} --to {ClassName} {attributeName}ToProxyed
+# for example: CalculateServiceImpl calculateService -to-> CalculateServiceImpl calculateServiceToProxyed
+
+add {InterfaceName} {attributeName} = null;
+# for example: ICalculateService calculateService = null;
+
+add:
+@BeforeEach
+void testMyTestsConfig() {
+    if ( this.{attributeName} == null ) {
+        this.{attributeName} = ProxyConfiguration.buildProxy( this.{attributeName}ToProxyed );
+    }
+}
+:endadd
+#> for example:
+@BeforeEach
+void testMyTestsConfig() {
+    if ( this.calculateService == null ) {
+        this.calculateService = ProxyConfiguration.buildProxy(this.calculateServiceToProxyed);
+    }
+}
+<#
