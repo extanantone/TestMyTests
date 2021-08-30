@@ -1,2 +1,2 @@
 # TestMyTests
-With this system we can test our Spring Tests, ours java beans will be proxied and we can filtrat there objects that want modify to generate intern errors.
+With this system we can test our Spring Tests, ours java beans will be proxied and we can filtrate these objects that want modify to generate inconsistencies and deliverate if its are visaulized accross our test.
